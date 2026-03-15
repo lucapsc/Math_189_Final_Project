@@ -4,7 +4,6 @@ import pandas as pd
 import requests
 
 df = pd.read_csv("zillow_housing_data.csv")
-API_KEY = "AIzaSyCPP2s2UW6u5A3W8wsu_3qRFnYTf6m-t-A"
 gmaps = googlemaps.Client(key=API_KEY)
 UCSD = "9450 Gilman Drive, La Jolla, CA 92093"
 
